@@ -17,7 +17,7 @@ function sumOfNaturalNumbers(num){
 }
 console.log(sumOfNaturalNumbers(5))
 
-Output => 15
+// Output => 15
 ```
 
 ### ___Sum of digits in number___
@@ -34,6 +34,5 @@ function sumOfDigits(num){
 
 console.log(sumOfDigits(32))
 
-Output => 5
-
+// Output => 5
 ```
