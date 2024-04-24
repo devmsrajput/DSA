@@ -36,3 +36,20 @@ console.log(sumOfDigits(32))
 
 // Output => 5
 ```
+
+### ___Number of digits in number___
+
+```javascript
+
+function countDigits(num){
+    let count = 0;
+    do{
+        count++
+        num = Math.floor(num / 10)
+    }while(num > 0);
+    return count;
+}
+console.log(countDigits(655))
+
+// Output => 3
+```
