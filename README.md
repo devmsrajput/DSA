@@ -53,3 +53,22 @@ console.log(countDigits(655))
 
 // Output => 3
 ```
+
+### ___Palindrome number___
+```javascript
+
+function isPalindrome(x) {
+    let copiedNumber = x;
+    let reversedNumber = 0;
+    while(x > 0){
+        let lastDigit = x % 10;
+        reversedNumber = reversedNumber * 10 + lastDigit;
+        x = Math.floor(x / 10);
+    }
+    return reversedNumber === copiedNumber
+};
+
+console.log(isPalindrome(121))
+
+// Output => true
+```
